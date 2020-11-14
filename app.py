@@ -41,3 +41,17 @@ print(first)
 # full = f"{len(first)} {last} {2+2}"
 # print(full)
 
+# String Methods
+course = "    python programming"
+print(course.upper())
+print(course.lower())
+print(course.title())
+print (course.strip())
+# will find, returns index of pro
+print (course.find("pro")) 
+# will not find
+print (course.find("Pro"))
+print(course.replace("p", "j"))
+# checks to see if we have "pro" in course, returns Boolean
+print("pro" in course)
+print("swift" not in course)
