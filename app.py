@@ -21,6 +21,15 @@ Blah blah blah.
 
 """
 
+# Strings and their indexes
 print(len(course))
+# Bracket Notation
 print(course[0])
 print(course[-1])
+print(course[0:3])
+
+# Escape Sequences
+course = "Python \" Programming"
+# OR
+course = "Python \\ Programming"
+print(course)
