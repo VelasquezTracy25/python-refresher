@@ -38,8 +38,8 @@ print(course)
 first = "Tracy"
 last = "Velasquez"
 print(first)
-# full = f"{len(first)} {last} {2+2}"
-# print(full)
+full = f"{len(first)} {last} {2+2}"
+print(full)
 
 # String Methods
 course = "    python programming"
@@ -64,9 +64,27 @@ x = 1 + 2j # 1 + bi
 print(10 + 3)
 print(10 - 3)
 print(10 * 3)
-# returns including remainder
+# returns with decimal
 print(10 / 3)
 # returns whole number
 print(10 // 3)
-# modulus
+# modulus - returns remainder
 print(10 % 3)
+
+x = 10
+x = x + 3
+x += 3
+
+# Working with numbers
+print(round(2.9))
+print(abs(-2.9))
+# Math module (import at the top, usually)
+import math
+print (math.ceil(2.2))
+# search Python 3 math modules for more
+
+# Type Conversion
+x = input("x : ")
+y = x + 1
+print(x)
+print(f"x: {x}, y:{y}")
