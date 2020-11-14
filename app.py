@@ -55,3 +55,18 @@ print(course.replace("p", "j"))
 # checks to see if we have "pro" in course, returns Boolean
 print("pro" in course)
 print("swift" not in course)
+
+# Numbers
+x = 1 
+x = 1.1
+# Complex numbers
+x = 1 + 2j # 1 + bi
+print(10 + 3)
+print(10 - 3)
+print(10 * 3)
+# returns including remainder
+print(10 / 3)
+# returns whole number
+print(10 // 3)
+# modulus
+print(10 % 3)
