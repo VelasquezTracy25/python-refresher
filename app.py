@@ -33,3 +33,11 @@ course = "Python \" Programming"
 # OR
 course = "Python \\ Programming"
 print(course)
+
+# Formatted Strings
+first = "Tracy"
+last = "Velasquez"
+print(first)
+# full = f"{len(first)} {last} {2+2}"
+# print(full)
+
