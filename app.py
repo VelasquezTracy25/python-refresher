@@ -58,9 +58,9 @@ print("swift" not in course)
 
 # Numbers
 x = 1 
-x = 1.1
+# x = 1.1
 # Complex numbers
-x = 1 + 2j # 1 + bi
+# x = 1 + 2j # 1 + bi
 print(10 + 3)
 print(10 - 3)
 print(10 * 3)
@@ -84,7 +84,7 @@ print (math.ceil(2.2))
 # search Python 3 math modules for more
 
 # Type Conversion
-x = input("x : ")
+# x = input("x : ")
 y = x + 1
 print(x)
 # print(f"x: {x}, y:{y}")
@@ -92,5 +92,17 @@ print(x)
 print(type(course))
 
 age: int = 20
-age = "Python"
+# age: = "Python"
 print(age)
+
+#Immutable and Mutable Types
+x = 1
+print(id(x))
+
+x = x + 1
+print(id(x))
+
+y = [1, 2, 3]
+print(id(y))
+
+print(y.append(4))
