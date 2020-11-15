@@ -106,3 +106,20 @@ y = [1, 2, 3]
 print(id(y))
 
 print(y.append(4))
+
+# Numbers
+# Binary format
+x = 0b10
+print(x)
+print(bin(x))
+
+#Hexadecimal
+x = 0x12c
+print(hex(x))
+
+#Complex numbers
+# x = a + bi 
+x = 1 + 2j
+print(x)
+
+
