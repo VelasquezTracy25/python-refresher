@@ -38,8 +38,8 @@ print(course)
 first = "Tracy"
 last = "Velasquez"
 print(first)
-full = f"{len(first)} {last} {2+2}"
-print(full)
+# full = f"{len(first)} {last} {2+2}"
+# print(full)
 
 # String Methods
 course = "    python programming"
@@ -87,4 +87,10 @@ print (math.ceil(2.2))
 x = input("x : ")
 y = x + 1
 print(x)
-print(f"x: {x}, y:{y}")
+# print(f"x: {x}, y:{y}")
+
+print(type(course))
+
+age: int = 20
+age = "Python"
+print(age)
