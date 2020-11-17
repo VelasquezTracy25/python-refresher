@@ -76,7 +76,28 @@ for name in names:
         print("Not Found")
 
 #While loops
-guess = 0
-answer = 5 
-while answer != guess:
-    guess = int(input("Guess: "))
+# guess = 0
+# answer = 5 
+# while answer != guess:
+#     guess = int(input("Guess: "))
+
+#Functions
+
+def increment(number, by):
+    return (number, number + by)
+
+
+print(increment(2,3))
+
+
+def increment(number, by = 1):
+    return (number, number + by)
+
+
+print(increment(2))
+
+def increment(number: int, by: int = 5) -> tuple:
+    return (number, number + by)
+
+
+print(increment(2))
