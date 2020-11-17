@@ -52,3 +52,25 @@ for x in range(0, 5):
 
 for x in range(0, 10, 2):
     print(x)    
+
+# For..else
+
+# Long way
+names = ["John", "Mary"]
+for name in names:
+    if name.startswith("J"):
+        print("found")
+        found = True
+        break
+    if not found: 
+        print("Not Found")
+
+# Shortcut with for-else
+names = ["John", "Mary"]
+for name in names:
+    if name.startswith("J"):
+        print("found")
+        found = True
+        break
+    else:
+        print("Not Found")
