@@ -101,3 +101,20 @@ def increment(number: int, by: int = 5) -> tuple:
 
 
 print(increment(2))
+
+# Arguments -xargs
+
+# long way
+# def multiply(list):
+#    return a * b
+
+# multiply([2,3,4,5])
+
+# shortcut with * 
+def multiply(*list):
+    total = 1
+    for number in list:
+        total *= number
+    return total
+
+print(multiply(2, 3, 4, 5) )  

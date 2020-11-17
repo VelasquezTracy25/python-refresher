@@ -1,2 +1,4 @@
-while answer != guess:
-    guess = int(input("Guess: "))
+def multiply(list):
+#    return a * b
+
+# multiply([2,3,4,5])
