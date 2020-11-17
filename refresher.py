@@ -126,3 +126,17 @@ def save_user(**user):
     print(user["name"])
 
 save_user(id=1, name="admin")    
+
+#scope
+def greet():
+    if True:
+        message = "a"
+    print(message)
+
+message1 = "b"
+
+def greet1():
+    global message1
+
+greet1()    
+print(message1)
