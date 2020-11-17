@@ -14,7 +14,7 @@ print(fizz_buzz(3))
 
 # Shortcut
 
-def fizz_buzz(input):
+def fizz_buzz2(input):
     if input % 3 == 0 and input % 5 == 0:
         return "FizzBuzz"
     if input % 3 == 0:
@@ -23,6 +23,24 @@ def fizz_buzz(input):
         return "Buzz"
     return input    
         
-print(fizz_buzz(3))
-print(fizz_buzz(5))
-print(fizz_buzz(15))
+print(fizz_buzz2(3))
+print(fizz_buzz2(5))
+print(fizz_buzz2(15))
+
+# Fizzbuzz loop exercise
+
+def fizzBuzzLoop(max):
+    for fizzbuzz in range(max):
+        if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
+            print("fizzbuzz")
+            continue
+        elif fizzbuzz % 3 == 0:
+            print("fizz")
+            continue
+        elif fizzbuzz % 5 == 0:
+            print("buzz")
+            continue
+        print(fizzbuzz)  
+
+print("Fizzbuzz with Loop:")
+print(fizzBuzzLoop(100))  
