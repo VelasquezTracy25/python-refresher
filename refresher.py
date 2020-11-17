@@ -29,5 +29,26 @@ if age >= 18 and age < 65:
     print ("Eligible") 
 
 if age >= 18 and age <65:
-    print("shortcut")
-    print ("Eligible")           
+    print("shortcut:")
+    print ("Eligible") 
+
+#Ternary
+newAge = 25
+# message = age >= 18 ? "Eligible" : "Not Eligible"
+message = "Elibile" if age >= 18 else "Not Eligible"
+
+# For loops 
+# for x in "Python":
+# print(x)
+
+for x in ['a', 'b', 'c']:
+    print(x)
+
+for x in range(5):
+    print(x)    
+
+for x in range(0, 5):
+    print(x)     
+
+for x in range(0, 10, 2):
+    print(x)    
