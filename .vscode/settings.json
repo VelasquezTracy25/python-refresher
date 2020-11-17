@@ -2,6 +2,7 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.mypyEnabled": true,
+    "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
