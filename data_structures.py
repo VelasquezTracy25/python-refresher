@@ -56,5 +56,31 @@ print(first, other, last)
 
 # Looping over lists
 letters = ["a", "b", "c"]
+items = (0, "a")
+index, letter = items
 for letter in enumerate(letters):
-    print(letter)
+    print (index, letter)
+
+# Adding or Removing items   
+letters = ["a", "b", "c"]
+
+# Add
+letters.append("d")
+letters.insert(0, "-")
+print(letters)
+
+# Remove
+letters.pop()
+print(letters)
+
+# Or 
+letters.remove("b")
+print(letters)
+
+# Delete
+del letters[0:3]
+print(letters)
+
+# Clear (delete all)
+letters.clear()
+print(letters)
