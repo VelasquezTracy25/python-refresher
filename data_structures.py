@@ -38,15 +38,23 @@ print(numbers[::2])
 numbers = [1, 2, 3]
 first, second, third = numbers
 print(first, second, third)
+# 1 2, 3
 
 # Unpacking with longer lists
 numbers = [1, 2, 3, 4, 4, 4, 4, 4]
 # Other is a list of all the items after the first two items
 first, second, *other = numbers
 print(first, second, other)
+# 1 2 [3, 4, 4, 4, 4, 4]
 
 # Unpacking with other in the middle of list
 numbers = [1, 2, 3, 4, 4, 4, 4, 9]
 # Other is a list of all the items after the first two items
 first, *other, last = numbers
 print(first, other, last)
+# 1 [2, 3, 4, 4, 4, 4] 9
+
+# Looping over lists
+letters = ["a", "b", "c"]
+for letter in enumerate(letters):
+    print(letter)
