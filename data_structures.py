@@ -59,7 +59,22 @@ letters = ["a", "b", "c"]
 items = (0, "a")
 index, letter = items
 for letter in enumerate(letters):
+    print("here")
     print (index, letter)
+    # (0, 'a')
+    # (1, 'b')
+    # (2, 'c')
+for letter in enumerate(letters):
+    print ("other here")
+    print (letter[0], letter[1])
+    # 0 a
+    # 1 b
+    # 2 c
+
+# enumerate - establish the number of.
+print("enumerate example")
+print(enumerate(letters))
+
 
 # Adding or Removing items   
 letters = ["a", "b", "c"]
