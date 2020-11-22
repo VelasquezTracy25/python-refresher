@@ -121,3 +121,8 @@ def sort_item(item):
 
 items.sort(key=sort_item)
 print(items)    
+
+# Lambdas
+
+items.sort(reverse=True, key=lambda item:item[1])
+print(items)
