@@ -99,3 +99,25 @@ print(letters)
 # Clear (delete all)
 letters.clear()
 print(letters)
+
+# Sorting Lists
+numbers = [3, 51, 2, 8, 6]
+# modifies existing list
+numbers.sort(reverse=True)
+# create new sorted list
+print(sorted(numbers))
+print(numbers)
+
+# Sorting tuples
+items = [
+("Product1", 10),
+("Product2", 9),
+("Product3", 12),
+]
+
+# Define function that pulls index of numbers 
+def sort_item(item):
+    return item[1]
+
+items.sort(key=sort_item)
+print(items)    
